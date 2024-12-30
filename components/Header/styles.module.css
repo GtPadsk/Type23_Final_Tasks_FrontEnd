@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(107, 48, 48);
+    color: aliceblue;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(107, 48, 48);
+}

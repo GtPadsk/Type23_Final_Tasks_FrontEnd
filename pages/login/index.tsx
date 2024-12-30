@@ -1,16 +1,16 @@
 import React from 'react'
 import Header from "@/components/Header/Header"
-import Main from "@/components/Main/Main"
+import LoginForm from "@/components/LoginForm/LoginForm"
 import Footer from "@/components/Footer/Footer"
 
-const index = () => {
+const LoginPage = () => {
     return (
-        <>
+        <div>
             <Header />
-            <Main />
+            <LoginForm />
             <Footer />
-        </>
+        </div>
     )
 }
 
-export default index
+export default LoginPage
